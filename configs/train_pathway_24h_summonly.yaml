@@ -1,0 +1,42 @@
+project_name: "holistic_patient"
+experiment_name: "train_pathway_24h_summonly" #"summary_input_8_last_int_only_summ_clean2"
+
+dataset_config:
+  max_input_len: 4000
+  max_output_len: 1000
+  weighted_sampling: True # if True dataset is weighted by "uniqueness" of each example / timepoint
+  dataset_name: "mixed"
+  sum_type: "last_int" # "last" or "max"
+  summary_len: 8
+  merge_with_text: False
+  used_text_hours: 24
+
+training_config:
+  model_name: "Qwen2-0.5B-Instruct-bnb-4bit"
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 4
+  gradient_accumulation_steps: 1
+  warmup_steps: 0
+  learning_rate: 0.0001
+  logging_steps: 100
+  optim: "adamw_8bit"
+  weight_decay: 0.00
+  lr_scheduler_type: "linear"
+  seed: 3407
+  eval_strategy: "steps"
+  eval_steps: 4000
+  eval_gen_frequency: 1
+  remove_unused_columns: false
+  dataset_text_field: "text"
+  max_seq_length: 5008
+  dataset_num_proc: 2
+  packing: false
+  num_train_epochs: 2
+  save_strategy: "steps"
+  save_steps: 4000
+  save_total_limit: 5
+  resume_from_checkpoint: False # True for last checkpoint, Path for specific checkpoint
+
+
+model_config:
+  use_custom_attn: False #default behaviour: False -> if True we can give custom attention_mask
