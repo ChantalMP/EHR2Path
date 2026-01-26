@@ -23,6 +23,10 @@ For detailed instructions on how to set up the environment, prepare the data, an
 ## Reference
 
 ```
-@inproceedings{todo
+@article{pellegrini2025ehrs,
+  title={From EHRs to Patient Pathways: Scalable Modeling of Longitudinal Health Trajectories with LLMs},
+  author={Pellegrini, Chantal and {\"O}zsoy, Ege and Bani-Harouni, David and Keicher, Matthias and Navab, Nassir},
+  journal={arXiv preprint arXiv:2506.04831},
+  year={2025}
 }
 ```
