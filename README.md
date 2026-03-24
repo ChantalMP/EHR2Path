@@ -7,7 +7,7 @@
 [mk]:https://www.cs.cit.tum.de/camp/members/matthias-keicher/
 [nn]:https://www.cs.cit.tum.de/camp/members/cv-nassir-navab/nassir-navab/
 
-[![](https://img.shields.io/badge/Arxiv-2307.05766-blue)](TODO)
+[![](https://img.shields.io/badge/Arxiv-2307.05766-blue)](https://arxiv.org/abs/2506.04831)
 
 <img align="center" src="figs/ehr2path.png" alt="teaser" width="100%" style="margin-left: 0px">
 
