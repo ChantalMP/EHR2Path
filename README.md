@@ -1,4 +1,5 @@
-## From EHRs to Patient Pathways: Scalable Modeling of Longitudinal Health Trajectories with LLMs
+## EHR2Path: Comprehensive Pathway-Level Modeling of Longitudinal Patient Trajectories from Multimodal Electronic Health Records
+
 **Authors:** [Chantal Pellegrini][cp], [Ege Özsoy][eo], [David Bani-Harouni][db], [Matthias Keicher][mk], [Nassir Navab][nn]
 
 [cp]:https://www.cs.cit.tum.de/camp/members/chantal-pellegrini/
@@ -7,7 +8,7 @@
 [mk]:https://www.cs.cit.tum.de/camp/members/matthias-keicher/
 [nn]:https://www.cs.cit.tum.de/camp/members/cv-nassir-navab/nassir-navab/
 
-[![](https://img.shields.io/badge/Arxiv-2307.05766-blue)](https://arxiv.org/abs/2506.04831)
+[![](https://img.shields.io/badge/Paper-TMLR-blue)](https://openreview.net/pdf?id=ywa71iOykg)
 
 <img align="center" src="figs/ehr2path.png" alt="teaser" width="100%" style="margin-left: 0px">
 
@@ -23,10 +24,10 @@ For detailed instructions on how to set up the environment, prepare the data, an
 ## Reference
 
 ```
-@article{pellegrini2025ehrs,
-  title={From EHRs to Patient Pathways: Scalable Modeling of Longitudinal Health Trajectories with LLMs},
+@article{pellegrini2026ehrs,
+  title={EHR2Path: Comprehensive Pathway-Level Modeling of Longitudinal Patient Trajectories from Multimodal Electronic Health Records},
   author={Pellegrini, Chantal and {\"O}zsoy, Ege and Bani-Harouni, David and Keicher, Matthias and Navab, Nassir},
-  journal={arXiv preprint arXiv:2506.04831},
-  year={2025}
+  journal={Transactions on Machine Learning Research},
+  year={2026}
 }
 ```
